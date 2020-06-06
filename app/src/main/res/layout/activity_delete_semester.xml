@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeleteSemester">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/deletesemtitle"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Delete Semester Record"
+            android:textColor="@color/colorBlue"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/delsemgroup"
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <RadioButton
+                android:id="@+id/s1radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester 1" />
+
+            <RadioButton
+                android:id="@+id/s2radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester 2" />
+
+            <RadioButton
+                android:id="@+id/s3radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester 3" />
+
+            <RadioButton
+                android:id="@+id/s4radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester 4" />
+
+            <RadioButton
+                android:id="@+id/s5radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester 5" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/deletebutton"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorRed"
+            android:text="Delete"
+            android:textColor="@color/colorGreen"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

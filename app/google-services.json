@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "72349138878",
+    "firebase_url": "https://progressanalyzer2.firebaseio.com",
+    "project_id": "progressanalyzer2",
+    "storage_bucket": "progressanalyzer2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72349138878:android:dd6504aa54d5e768cf03ef",
+        "android_client_info": {
+          "package_name": "com.example.progressanalyzer2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72349138878-r624i1v0rr4cgogs0ti32v7pj49nrnm5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.progressanalyzer2",
+            "certificate_hash": "df621d679d399f37b5d65050e015922b646b854c"
+          }
+        },
+        {
+          "client_id": "72349138878-qbrui8ib3g8dp1qc3lm7il8m6ahgkrv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRRSnsENvaYJMZ2ew9uwVdYlekk-a3jAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72349138878-qbrui8ib3g8dp1qc3lm7il8m6ahgkrv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

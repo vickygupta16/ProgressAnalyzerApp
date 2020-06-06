@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProgress">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/progresstitle"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="My Progress"
+            android:textColor="@color/colorBlue"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Semester 1"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/s1sgpavalue"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="SGPA"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/s1gradevalue"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Grade"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Semester 2"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/s2sgpavalue"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="SGPA"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/s2gradevalue"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Grade"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Semester 3"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/s3sgpavalue"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="SGPA"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/s3gradevalue"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Grade"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Semester 4"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/s4sgpavalue"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="SGPA"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/s4gradevalue"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Grade"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Semester 5"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/s5sgpavalue"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="SGPA"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/s5gradevalue"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Grade"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/atkts1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="right"
+            android:textColor="@color/colorRed" />
+
+        <TextView
+            android:id="@+id/atkts2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="right"
+            android:textColor="@color/colorRed" />
+
+        <TextView
+            android:id="@+id/atkts3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="right"
+            android:textColor="@color/colorRed" />
+
+        <TextView
+            android:id="@+id/atkts4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="right"
+            android:textColor="@color/colorRed" />
+
+        <TextView
+            android:id="@+id/atkts5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="right"
+            android:textColor="@color/colorRed" />
+
+        <Button
+            android:id="@+id/homeredirect"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:background="@color/colorGreen"
+            android:text="Home"
+            android:textColor="@color/colorBlue"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>
